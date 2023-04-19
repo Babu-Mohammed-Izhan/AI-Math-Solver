@@ -3,6 +3,7 @@ dotenv.config({ path: __dirname + "/.env" });
 import express from "express";
 import cors from "cors";
 import noteRouter from "./controller/note";
+import aiRouter from "./controller/mathai";
 import mongoose from "mongoose";
 
 const app = express();
@@ -21,6 +22,8 @@ mongoose
 const PORT = 3001;
 
 app.use("/api/note", noteRouter);
+
+app.use("/api/mathai", aiRouter);
 
 app.get("/api/ping", (_req, res) => {
   res.send("pong");

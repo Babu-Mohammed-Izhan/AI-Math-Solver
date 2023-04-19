@@ -1,10 +1,9 @@
-
-
+# AI Math Solver Backend
 
 # MVC Express API Template using Typescript with a MongoDB Atlas Database
 
-  This is a MVC express server template created using express, typescript, node, mongoose
-  and connected using MongoDB Atlas.
+This is a MVC express server template created using express, typescript, node, mongoose
+and connected using MongoDB Atlas.
 
 ## Steps to use Server:
 
@@ -20,4 +19,4 @@ To run the server in development mode.
 
 `npm run start`
 
-To start the server. 
+To start the server.
